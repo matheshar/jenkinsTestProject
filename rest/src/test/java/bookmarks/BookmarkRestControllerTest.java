@@ -87,6 +87,7 @@ public class BookmarkRestControllerTest {
 
     @Test
     public void userNotFound() throws Exception {
+        Assert.assertTrue(false);
         mockMvc.perform(post("/george/bookmarks/")
                 .content(this.json(new Bookmark()))
                 .contentType(contentType))
