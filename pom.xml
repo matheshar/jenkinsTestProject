@@ -21,6 +21,12 @@
 		<module>hateoas</module>
 	</modules>
 
+	<pluginRepositories>
+		<pluginRepository>
+			<id>hello2morrow.maven.repository</id>
+			<url>http://maven.hello2morrow.com/repository</url>
+		</pluginRepository>
+	</pluginRepositories>
 	<!--<properties>
 		&lt;!&ndash; The main class to start by executing java -jar &ndash;&gt;
 		<start-class>bookmarks.Application</start-class>
